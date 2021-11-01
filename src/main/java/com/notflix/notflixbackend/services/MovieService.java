@@ -22,4 +22,10 @@ public class MovieService implements IMovieService {
     public Movie createMovie(Movie movie) {
         return movieRepository.save(movie);
     }
+
+    @Override
+    public Movie updateMovie(Movie movie) {
+        System.out.println("movie = " + movie);
+        return movieRepository.save(movie);
+    }
 }

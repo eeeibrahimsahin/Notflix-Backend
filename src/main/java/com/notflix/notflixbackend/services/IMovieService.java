@@ -8,4 +8,6 @@ public interface IMovieService {
     List<Movie> getMovies();
 
     Movie createMovie(Movie movie);
+
+    Movie updateMovie(Movie movie);
 }

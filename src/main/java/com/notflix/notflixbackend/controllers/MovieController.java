@@ -20,4 +20,8 @@ public class MovieController {
     public Movie createMovie(@RequestBody Movie movie){
         return movieService.createMovie(movie);
     }
+    @PutMapping()
+    public Movie updateMovie(@RequestBody Movie movie){
+        return movieService.updateMovie(movie);
+    }
 }
