@@ -50,6 +50,15 @@ public class NotflixBackendApplication implements CommandLineRunner {
                         5,
                         "https://m.media-amazon.com/images/M/MV5BMmYxZWY2NzgtYzJjZC00MDFmLTgxZTctMjRiYjdjY2FhODg3XkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_FMjpg_UX1000_.jpg",
                         "https://www.youtube.com/embed/i4noiCRJRoE"
+                ),
+                new Movie(
+                        4,
+                        "Kung Fu Panda",
+                        "This Panda knows Kung Fu!!!",
+                        "Animation",
+                        4,
+                        "https://tr.web.img3.acsta.net/r_1280_720/medias/nmedia/18/36/20/29/18927309.jpg",
+                        "https://www.youtube.com/embed/PXi3Mv6KMzY"
                 )
         ));
 
